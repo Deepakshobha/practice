@@ -1,0 +1,29 @@
+List Comprehension
+-----------------------
+1)create list comprehension to print the value in reverse order
+li = ['python',10, 3.2, 'selenium_', 'java']
+o/p =['java', 'selenium_', 3.2, 10, 'python']
+
+2) print only single value data types in list
+li = ['python',1.2,100,'selenium_', 'java','abc',1,12,13,14,3+4j
+3)print odd length as it is even length reverse it
+li = ['python', 'java', 'selium', 'abc', 'abcde']
+
+4)print word with length
+li = ['python','selenium_', 'java','abc']
+
+5)odd lengh print as it is even length reverse it
+li = ['python','selenium_', 'java','abc']
+
+Dictionary Comprehension
+-------------------------
+1)flip key and value
+d ={'a':1, 'b':2}
+
+2)not repeated word and count
+s = "python is a language to python is a"
+
+3)odd lengh print as it is even length reverse it
+li = ['python','selenium_', 'java','abc']
+take index as key value as item
+
