@@ -1,0 +1,50 @@
+sep 8th 2022 Thursday
+-------------------------
+Dictionary Comprehension
+
+string = 'hello world'
+# print letter with count letter-key count-value
+# d = {}
+# for i in string:
+#     d[i] = string.count(i)
+# print(d)
+
+# res ={}
+# res = {i:string.count(i) for i in string}
+# print(res)
+
+
+string = 'python is a programming subject'
+# word and length
+# new_string = string.split()
+# output = {i:len(i) for i in new_string}
+# print(output)
+
+#word with count
+# string = 'python is a programming subject and c++ is also a programming subject'
+# new_string = string.split()
+# output = {i:new_string.count(i) for i in new_string}
+# print(output)
+
+#duplicate word with count
+# string = 'python is a programming subject and c++ is also a programming subject'
+# new_string = string.split()
+# output = {i:new_string.count(i) for i in new_string if new_string.count(i) > 1}
+# print(output)
+
+#if word is odd length keep as it is if even length reverse it key should be length and value is your string
+string = 'python is a programming subject and c++ is also a programming subject'
+new_string = string.split()
+output = {len(i):i[::-1] if len(i)%2 == 0 else i for i in new_string}
+print(output)
+
+# create a dictionary with char and ascii value
+s = "PyTHOn"
+#ord(i) Ascii
+output = {i:ord(i) for i in s}
+print(output)
+
+#WAP to create a dictionary wiht item and index if the item is string reverrse it else keep as it is
+li = [1,'python','java',1.2,3+4j,'c++']
+output = {index:value[::-1] if isinstance(value,str) else value for index,value in enumerate(li)}
+print(output)
